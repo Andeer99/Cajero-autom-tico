@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 700px;
+    background-color:#0F3D74;
+}
+label{
+    color: #fdfdfd;
+    font-size: 40px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    background-color: #19213A;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35px;
+    color: #fdfdfd;
+    background-color: #0777e0;
+    font-size: 30px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    background-color: #19213A;
+
+}
+.pie{
+    background-color: #19213A;
+    height: 1000px;
+}
