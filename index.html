@@ -7,28 +7,34 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
+<header >
+    <img src="./imagges/Vector.png" alt="imagen de un banco">
+</header>
 <body>
     <div class="body">
         <aside class="body-message">
             <h1><strong>Bienvenido </strong>a tu app BBVA online</h1>
+            <div class="body-login">
+                <div class="body-login-container">
+                    <label for="username">Usuario:</label>
+                    <input type="email" placeholder="Escribe tu correo" id="username" name="username">
+                    
+                    <label for="password">Contraseña:</label>
+                    <input type="password" placeholder="Escribe tu contraseña" id="password" name="password">
+                    </div>
+                
+                    <section class="boton">
+                    <button onclick="ingresar(event)">Ingresar</button>
+                    </section>
+                </div>
         </aside>
         
+            
+    
+            <p id="mensaje"></p>
+        
     </div>
-    <section class="body-login">
-        <div class="body-login-content">
-        <label for="username">Usuario:</label>
-        <input type="email" placeholder="Escribe tu correo" id="username" name="username">
-
-        <label for="password">Contraseña:</label>
-        <input type="password" placeholder="Escribe tu contraseña" id="password" name="password">
-        </div>
-
-        <section class="boton">
-        <button onclick="ingresar(event)">Ingresar</button>
-        </section>
-
-        <p id="mensaje"></p>
-    </section>
+    
 
     <script src="./main.js"></script>
 </body>
