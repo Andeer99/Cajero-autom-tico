@@ -1,39 +1,33 @@
-*{
-    margin: 0px;
-    padding: 0%;
-    box-sizing: border-box;
-}
-header{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: #121139;
+    width: 1248px;
+    height: 553.56px;
     display: flex;
-    justify-content: space-evenly;
-    height: 700px;
-    background-color:#0F3D74;
 }
-label{
-    color: #fdfdfd;
-    font-size: 40px;
-}
-.login{
+.body.message{
     display: flex;
-    justify-content: center;
-    background-color: #19213A;
+    width: 663px;
+    height: 427px;
+    
 }
-button{
-    display: flex;
+h1{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
     flex-direction: column;
-    align-items: center;
-    height: 35px;
-    color: #fdfdfd;
-    background-color: #0777e0;
-    font-size: 30px;
-}
-.boton{
-    display: flex;
-    justify-content: center;
-    background-color: #19213A;
+    width: 663px;
+    height: 427px;
+    background: -webkit-linear-gradient(#F44E77, #812de2);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
 
 }
-.pie{
-    background-color: #19213A;
-    height: 1000px;
+
+
+.body-login{
+    width: 500px;
+    height: 250px;
+    border-radius: 50px;
+    
 }
