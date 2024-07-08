@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 header{
     width: 1440px;
     height: 93.17px;
 }
 body{
-    background-color: #121139;
+    background-color: #19213A;
     width: 1440px;
     height: 745.56px;
     display: flex;
     flex-direction: column;
 }
 .body{
-    width: 1248px;
+    width: 1440px;
     height: 745px;
     
     
 }
-.body.message{
-    width: 663px;
+.body-message{
+    width: 1440px;
     height: 740px;
+    display: flex;
     
 }
 h1{
@@ -28,19 +31,35 @@ h1{
     flex-direction: column;
     width: 663px;
     height: 427px;
-    background: linear-gradient(to right,#F44E77, #812de2);
+    background: linear-gradient(to right,#1a2e54,#0f3d74,#13599b ,#50b6ff);
+    text-decoration: line-through;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right,#50b6ff, #13599b ,#0f3d74);
+    text-decoration: line-through;
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .body-login{
+    font-family: "Playfair Display", sans-serif;
+    width: 777px;
+    height: 427px;
+    color: white;
+    font-size: 50px;
+    flex-direction: column; 
     
-    width: 600px;
-    height: 300px;
-    color: rgb(29, 128, 215);
-    font-size: 39px;
-    background: linear-gradient(to right,#F44E77, #812de2);
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+}
+.body-login-container{
+    background: linear-gradient(to right, #13599b, #0f3d74, #1a2e54 );
+    border-radius: 40px;
+    height: 100%;
+}
+input{
+    width: 300px;
+    height: 50px;
 }
