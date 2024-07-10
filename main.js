@@ -7,7 +7,7 @@ function ingresar(event){
         window.location.href = "inicio.html";
         //Pendiente, inhabilitar boton de ingresar 
     } else{
-        mensaje.style.color = "red";
+        mensaje.style.color = "white";
         mensaje.innerHTML = "Error al iniciar sesión";
     }
 }
