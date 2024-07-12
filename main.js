@@ -6,22 +6,27 @@ function ingresar(event){
     if(username.value === "ander@gmail.com" && password === "1234"){
         window.location.href = "inicio.html";
         //Pendiente, inhabilitar boton de ingresar 
-    } else{
+    } else if(username.value === "hiram@gmail.com" && password === "zorr@12"){
+        window.location.href = "inicio.html";
+    } else if(username.value === "emiliano@gmail.com" && password === "emiñol88"){
+        window.location.href = "inicio.html";
+    }  
+    else{
         mensaje.style.color = "white";
         mensaje.innerHTML = "Error al iniciar sesión";
     }
 }
 let usuarios = [
     {
-    user: "Antonio",
+    user: "Hiram",
     pass: "1234"
     },
     {
-    user: "Raul",
+    user: "Emiliano",
     pass: "12345"
     },
     {
-    user: "Panarabit",
+    user: "Ander",
     pass: "123456"
     }
 ] 
