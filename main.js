@@ -14,7 +14,7 @@ function ingresar() {
     const pass = password.value;
 
     if (cuentas[user] && ((user === "ander@gmail.com" && pass === "1234") ||
-        (user === "hiram@gmail.com" && pass === "zorr@12") ||
+        (user === "hiram@gmail.com" && pass === "zorro12") ||
         (user === "emiliano@gmail.com" && pass === "emiñol88"))) {
         
         localStorage.setItem("usuarioActual", JSON.stringify(cuentas[user]));

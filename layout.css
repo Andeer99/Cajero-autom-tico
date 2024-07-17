@@ -8,27 +8,33 @@
     display: flex;
     width: 100%;
     height: 100%;
-    justify-content: space-between;
-    background-color:#13599b;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, #13599b, #0f3d74, #1a2e54 );
     color: white;
 }
 .bienvenida{
-    gap: 885px;
+    gap: 805px;
     display: flex;
+    width: 1600px;
 }
 h1{
     font-family: 'Oswald', sans-serif; 
 }
-p{
+.p-one{
     width: 276.88px;
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-self: center
+    ;
+    
 }
 .container{
     height: 400px;
 }
 .container-buttons{
-    gap: 200px;
+    gap: 100px;
     display: flex;
     width: 100%;
     height: 100%;
@@ -57,10 +63,29 @@ p{
     background: linear-gradient(to right, #1a2e54, #0f3d74, #13599b );
 }
 .viewarea{
-    height: 200px;
+    height: 400px;
     background-color: #13599b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .viewarea-container{
+    width: 750px;
+    height: 230px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #0f3d74, #1a2e54 );
+    display: flex;
+    justify-content: center;
+
+}
+.p-two{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
+
 
