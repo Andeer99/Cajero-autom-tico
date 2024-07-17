@@ -10,11 +10,20 @@
     <header class="Header">
         <div class="bienvenida" >
         <h1>¡Bienvenido a tu app BBVA online!</h1>
-        <p onclick="mostrarIdentidad();" id="bienvenidaUsuario"></p>
+        <p id="bienvenidaUsuario"></p>
         </div>
     </header>
-    <div class="containers">
-        
+    <div class="container">
+        <div class="container-buttons"> 
+            <button class="button-one" onclick="consultarSaldo();">Consultar Saldo</button>
+            <button class="button-two" onclick="igresarMonto();">Ingresar Monto</button>        
+            <button class="button-three" onclick="retirarMonto();">Retirar Monto</button>
+        </div> 
+    </div>
+    <div class="viewarea">
+        <div class="viewarea-container">
+            <p id="mostrarDatos()"></p>
+        </div>
     </div>
     <script src="./inicio.js"></script>
 </body>
